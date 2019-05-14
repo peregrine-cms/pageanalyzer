@@ -1,0 +1,25 @@
+{
+  "name": "pageanalyzer",
+  "version": "0.0.1",
+  "description": "analyzes a url with various tools and reports the findings ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peregrine-cms/pageanalyzer.git"
+  },
+  "author": "headwire.com, Inc",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/peregrine-cms/pageanalyzer/issues"
+  },
+  "homepage": "https://github.com/peregrine-cms/pageanalyzer#readme",
+  "dependencies": {
+    "axe-cli": "^3.0.0",
+    "chrome-remote-interface": "^0.27.1",
+    "fs-extra": "^8.0.1",
+    "lighthouse": "^5.0.0",
+  }
+}
